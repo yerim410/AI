@@ -1,0 +1,35 @@
+{
+ "student": "202412330_이예",
+ "data": "v1",
+ "best_val": 0.013697126543057953,
+ "onnx": "/content/drive/MyDrive/AIApp/week06/my_policy_v1.onnx",
+ "compare": [
+  {
+   "policy": "expert",
+   "score": 89.824,
+   "completion": 1.0,
+   "offtrack_rate": 0.0,
+   "mean_abs_d": 0.102
+  },
+  {
+   "policy": "base",
+   "score": 9.295,
+   "completion": 0.203,
+   "offtrack_rate": 1.0,
+   "mean_abs_d": 0.084
+  },
+  {
+   "policy": "finetune",
+   "score": 87.948,
+   "completion": 1.0,
+   "offtrack_rate": 0.0,
+   "mean_abs_d": 0.121
+  }
+ ],
+ "failure_C": {
+  "terminated": false,
+  "step": 1452,
+  "mean_abs_d_last30": 0.06933265539401401,
+  "kappa_at_end": -0.2
+ }
+}
